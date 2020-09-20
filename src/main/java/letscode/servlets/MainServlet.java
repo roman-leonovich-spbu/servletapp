@@ -10,6 +10,7 @@ import java.io.IOException;
 import java.util.stream.Collectors;
 
 
+
 @WebServlet(urlPatterns = {"/cool-servlet", "/my-cool-servlet/*"})
 public class MainServlet extends HttpServlet {
     @Override
